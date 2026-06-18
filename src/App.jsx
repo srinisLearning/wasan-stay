@@ -17,7 +17,7 @@ import { Toaster } from "react-hot-toast";
 //import "dotenv/config";
 //BASE_URL = process.env.REACT_APP_API_URL;
 //axios.defaults.baseURL = BASE_URL;
-axios.defaults.baseURL = " http://127.0.0.1:6066";
+axios.defaults.baseURL = " https://wasan-stay-server.onrender.com/";
 function App() {
   //console.log(process.env.REACT_APP_API_URL);
   return (
