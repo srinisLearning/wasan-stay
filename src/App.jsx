@@ -17,7 +17,7 @@ import { Toaster } from "react-hot-toast";
 //import "dotenv/config";
 //BASE_URL = process.env.REACT_APP_API_URL;
 //axios.defaults.baseURL = BASE_URL;
-axios.defaults.baseURL = " https://wasan-stay-server.onrender.com/";
+axios.defaults.baseURL = "https://wasan-stay-server.onrender.com/";
 function App() {
   //console.log(process.env.REACT_APP_API_URL);
   return (
@@ -56,7 +56,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/book/:roomId" excat element={<BookingPage />} />
+          <Route path="/book/:roomId" exact element={<BookingPage />} />
           <Route path="/mybookings" element={<MyBookings />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/admin/users" element={<AdminUserPage />} />
@@ -68,7 +68,7 @@ function App() {
       </main>
 
       <footer className="bg-primary text-white text-center p-4 w-full mt-auto">
-        &copy; 2024 Wasan Rooms
+        &copy; 2026 Wasan Stay
       </footer>
     </div>
   );
