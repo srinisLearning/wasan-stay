@@ -57,7 +57,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/book/:roomId" excat element={<BookingPage />} />
+          <Route path="/book/:roomId" exact element={<BookingPage />} />
           <Route path="/mybookings" element={<MyBookings />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/admin/users" element={<AdminUserPage />} />
