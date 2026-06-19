@@ -69,7 +69,7 @@ function App() {
       </main>
 
       <footer className="bg-primary text-white text-center p-4 w-full mt-auto">
-        &copy; 2024 Wasan Rooms
+        &copy; 2026 Wasan Stay
       </footer>
     </div>
   );
